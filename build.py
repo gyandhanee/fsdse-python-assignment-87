@@ -1,7 +1,5 @@
 import pandas as pd
 
-
 def solution(array):
-    """
-    Enter your code here
-    """
+    S = pd.Series(array)
+    return S
